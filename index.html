@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Fatima — UI/UX Portfolio</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<nav class="sticky-nav">
+  <div class="logo">Fatima</div>
+  <ul class="nav-menu">
+    <li><a href="#work-section">Work</a></li>
+    <li><a href="#approach-section">About</a></li>
+    <li><a href="#" onclick="openContactPopup()">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">PORTFOLIO · 2024 — 2026</div>
+        <h1 class="hero-title">UI/UX design for digital products.</h1>
+        <p class="hero-description">
+          I'm Fatima — a UI/UX designer crafting intuitive interfaces, user-centered experiences, and seamless digital journeys.
+        </p>
+        <a href="#work-section" class="hero-link">View my work →</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/girl.jpg" alt="Fatima - UI/UX Designer">
+      </div>
+    </section>
+
+    <!-- MOVING TICKER SECTION (UI/UX focused) -->
+    <section class="ticker-section">
+      <div class="ticker-container">
+        <div class="ticker-track">
+          <span class="ticker-item">User Research</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Wireframing</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Prototyping</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">User Flows</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">UI Design</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">UX Strategy</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Usability Testing</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Figma</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Webflow</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Design Systems</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">User Research</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Wireframing</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Prototyping</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">User Flows</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">UI Design</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">UX Strategy</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Usability Testing</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Figma</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Webflow</span>
+          <span class="ticker-sep">✦</span>
+          <span class="ticker-item">Design Systems</span>
+          <span class="ticker-sep">✦</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH SECTION -->
+    <section class="approach-section" id="approach-section">
+      <div class="approach-container">
+        <div class="approach-heading">
+          <h2 class="approach-title">APPROACH</h2>
+        </div>
+        <p class="approach-quote">
+          I believe great design is the quiet outcome of patient thinking — of asking <em>what is this for</em> before asking <em>what should it look like</em>. Every project is a chance to make something feel inevitable.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- SECTION: UI/UX DESIGN PROJECTS (ALL PROJECTS)  -->
+    <!-- ============================================= -->
+    <section class="work-section" id="work-section">
+      <div class="work-container">
+        <div class="work-header">
+          <div class="work-badge">Digital Products — 06</div>
+          <h2 class="work-title">UI/UX <span style="color: #8a6e4b;">Design Projects</span></h2>
+          <p class="work-subtitle">Intuitive interfaces, user-centered design, and seamless experiences</p>
+        </div>
+
+        <!-- Two-column layout -->
+        <div class="work-grid">
+          <!-- LEFT: Featured UI/UX Project -->
+          <div class="featured-column">
+            <div class="work-item featured">
+              <div class="work-image">
+                <img src="assets/images/craigslist-redesign-cover.jpg" alt="Craigslist Redesign">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="javascript:void(0)" class="work-btn view-btn" onclick="openUxPreview('Craigslist Redesign')">View →</a>
+                    <span class="work-price">On going</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2026</div>
+                <div class="work-details">
+                  <h3 class="work-name">Craigslist Redesign</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT: Two smaller UI/UX projects -->
+          <div class="stack-column">
+            <div class="work-item small">
+              <div class="work-image">
+                <img src="assets/images/diagen-cover.png" alt="Diagen">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="#" class="work-btn view-btn" onclick="openUxPreview('Diagen')">View →</a>
+                    <span class="work-price">Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2025-2026</div>
+                <div class="work-details">
+                  <h3 class="work-name">Diagen</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-item small">
+              <div class="work-image">
+                <img src="assets/images/noventra-cover.png" alt="Noventra">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="#" class="work-btn view-btn" onclick="openUxPreview('Noventra')">View →</a>
+                    <span class="work-price">Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2026</div>
+                <div class="work-details">
+                  <h3 class="work-name">Noventra</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second row of UI/UX projects -->
+        <div class="additional-projects">
+          <div class="additional-grid">
+            <div class="work-item">
+              <div class="work-image">
+                <img src="assets/images/calligo cover.png" alt="Calligo">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="#" class="work-btn view-btn" onclick="openUxPreview('Calligo')">View →</a>
+                    <span class="work-price">Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2026</div>
+                <div class="work-details">
+                  <h3 class="work-name">Calligo</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-item">
+              <div class="work-image">
+                <img src="assets/images/portfolio cover.png" alt="Portfolio Website">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="#" class="work-btn view-btn" onclick="openUxPreview('Portfolio Website')">View →</a>
+                    <span class="work-price">Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2026</div>
+                <div class="work-details">
+                  <h3 class="work-name">Portfolio Website</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="work-item">
+              <div class="work-image">
+                <img src="assets/images/music-player-cover.png" alt="Next Music Player">
+                <div class="work-overlay">
+                  <div class="work-actions">
+                    <a href="#" class="work-btn view-btn" onclick="openUxPreview('Next Music Player')">View →</a>
+                    <span class="work-price">Completed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="work-info">
+                <div class="work-year">2025</div>
+                <div class="work-details">
+                  <h3 class="work-name">Next Music Player</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================= -->
+    <!-- UI/UX INQUIRY SECTION                        -->
+    <!-- ============================================= -->
+    <section class="ux-inquiry-section">
+      <div class="ux-inquiry-container">
+        <div class="ux-inquiry-badge">LET'S MAKE SOMETHING</div>
+        <h2 class="ux-inquiry-title">
+          Have a <span class="ux-inquiry-highlight">project</span><br>
+          in mind?
+        </h2>
+        <a href="javascript:void(0)" class="ux-inquiry-btn" onclick="openUxInquiryPopup()">Start a conversation →</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================= -->
+  <!-- UI/UX DESIGN PREVIEW MODAL                    -->
+  <!-- ============================================= -->
+  <div id="uxPreview" class="ux-preview-overlay">
+    <div class="ux-preview-container">
+      <button class="close-ux-preview" onclick="closeUxPreview()">✕</button>
+      
+      <div class="ux-preview-layout">
+        <!-- Left: Main preview -->
+        <div class="ux-preview-main">
+          <div class="ux-preview-image-wrapper">
+            <img id="uxPreviewMainImage" src="" alt="Design Preview">
+            <div class="ux-preview-badge">UI/UX Design</div>
+            <div class="ux-preview-status-badge" id="uxPreviewStatusBadge">Completed</div>
+          </div>
+          
+          <!-- Thumbnail navigation -->
+          <div class="ux-preview-thumbnails" id="uxThumbnailNav">
+            <!-- Thumbnails will be inserted via JS -->
+          </div>
+        </div>
+        
+        <!-- Right: Project details -->
+        <div class="ux-preview-details">
+          <h2 id="uxPreviewTitle">Project Name</h2>
+          <p class="ux-preview-subtitle" id="uxPreviewSubtitle">Project subtitle</p>
+          
+          <div class="ux-preview-info">
+            <div class="ux-preview-stat">
+              <span class="ux-stat-label">Year</span>
+              <span class="ux-stat-value" id="uxPreviewYear">2024</span>
+            </div>
+            <div class="ux-preview-stat">
+              <span class="ux-stat-label">Type</span>
+              <span class="ux-stat-value" id="uxPreviewType">UI/UX Design</span>
+            </div>
+            <div class="ux-preview-stat">
+              <span class="ux-stat-label">Screens</span>
+              <span class="ux-stat-value" id="uxPreviewScreens">5</span>
+            </div>
+          </div>
+          
+          <div class="ux-preview-features">
+            <h4>Project Overview:</h4>
+            <ul id="uxFeaturesList">
+              <li>✓ User research & analysis</li>
+              <li>✓ Wireframing & prototyping</li>
+              <li>✓ Visual design & UI elements</li>
+              <li>✓ Usability testing</li>
+            </ul>
+          </div>
+          
+          <div class="ux-preview-actions">
+            <a href="#" class="ux-preview-figma-btn" target="_blank">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"/>
+                <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"/>
+                <path d="M12 9h3.5a3.5 3.5 0 1 1 0 7H12V9z"/>
+                <path d="M5 16.5A3.5 3.5 0 0 1 8.5 13H12v7H8.5A3.5 3.5 0 0 1 5 16.5z"/>
+                <path d="M12 13h3.5a3.5 3.5 0 1 1 0 7H12v-7z"/>
+              </svg>
+              View Figma File
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- UI/UX INQUIRY POPUP MODAL                    -->
+  <!-- ============================================= -->
+  <div id="uxInquiryPopup" class="ux-inquiry-overlay">
+    <div class="ux-inquiry-container-modal">
+      <button class="close-ux-inquiry" onclick="closeUxInquiryPopup()">✕</button>
+      
+      <div class="ux-inquiry-content-modal">
+        <div class="ux-inquiry-icon">💼</div>
+        <h3 class="ux-inquiry-title-modal">Let's Work Together</h3>
+        <p class="ux-inquiry-subtitle">Choose how you'd like to discuss your UI/UX project:</p>
+        
+        <div class="ux-inquiry-options">
+          <!-- WhatsApp Option -->
+          <a href="#" class="ux-inquiry-option whatsapp-option" onclick="openUxWhatsApp()">
+            <div class="ux-inquiry-option-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <div class="ux-inquiry-option-text">
+              <span class="ux-inquiry-option-title">WhatsApp</span>
+              <span class="ux-inquiry-option-desc">Fast & convenient</span>
+            </div>
+            <span class="ux-inquiry-option-arrow">→</span>
+          </a>
+          
+          <!-- Gmail Option -->
+          <a href="#" class="ux-inquiry-option gmail-option" onclick="openUxGmail()">
+            <div class="ux-inquiry-option-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+              </svg>
+            </div>
+            <div class="ux-inquiry-option-text">
+              <span class="ux-inquiry-option-title">Gmail</span>
+              <span class="ux-inquiry-option-desc">Send project details</span>
+            </div>
+            <span class="ux-inquiry-option-arrow">→</span>
+          </a>
+        </div>
+        
+        <!-- Policies Section -->
+        <div class="ux-inquiry-policies">
+          <div class="ux-inquiry-policy">
+            <div class="ux-inquiry-policy-icon">💳</div>
+            <div class="ux-inquiry-policy-content">
+              <h4>Payment Policy</h4>
+              <p>A 50% advance is required to begin work. The remaining 50% is due before the final files are handed over. Payment is accepted via JazzCash or bank transfer.</p>
+            </div>
+          </div>
+          
+          <div class="ux-inquiry-policy">
+            <div class="ux-inquiry-policy-icon">↩️</div>
+            <div class="ux-inquiry-policy-content">
+              <h4>Refund Policy</h4>
+              <p>The 50% advance is non-refundable once work has started. If the final delivery does not match the agreed brief, revisions will be offered before any refund is considered.</p>
+              <p class="policy-note">No refunds for change of mind after delivery.</p>
+            </div>
+          </div>
+        </div>
+        
+        <p class="ux-inquiry-footer">By proceeding, you agree to our policies</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- CONTACT POPUP MODAL                           -->
+  <!-- ============================================= -->
+  <div id="contactPopup" class="contact-popup-overlay">
+    <div class="contact-popup-container">
+      <button class="close-contact-popup" onclick="closeContactPopup()">✕</button>
+      
+      <div class="contact-popup-content">
+        <div class="contact-popup-header">
+          <div class="contact-popup-icon">✉️</div>
+          <h3 class="contact-popup-title">Let's Connect</h3>
+          <p class="contact-popup-subtitle">Have a question or want to work together? Send me a message!</p>
+        </div>
+        
+        <form class="contact-form" onsubmit="handleContactForm(event)">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Enter your name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-email">Your Email</label>
+            <input type="email" id="contact-email" placeholder="Enter your email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" placeholder="What's this about?">
+          </div>
+          
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          
+          <button type="submit" class="contact-submit-btn">
+            Send Message
+            <span class="contact-submit-arrow">→</span>
+          </button>
+        </form>
+        
+        <div class="contact-popup-footer">
+          <p>Or reach me directly at <a href="mailto:chfatima439@gmail.com">chfatima439@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================= -->
+  <!-- FOOTER SECTION                                -->
+  <!-- ============================================= -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <div class="footer-main">
+          <div class="footer-badge">CURRENTLY</div>
+          <h2 class="footer-title">
+            Available for new <span class="footer-highlight">work</span>.
+          </h2>
+          <a href="mailto:chfatima439@gmail.com" class="footer-email">
+            chfatima439@gmail.com
+            <span class="footer-arrow">→</span>
+          </a>
+        </div>
+        
+        <div class="footer-nav">
+          <div class="footer-nav-column">
+            <div class="footer-nav-label">NAVIGATE</div>
+            <ul class="footer-nav-list">
+              <li><a href="#work-section">Work</a></li>
+              <li><a href="#approach-section">About</a></li>
+              <li><a href="#" onclick="openContactPopup()">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2026 Fatima · Designed with care.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // =============================================
+    // UI/UX DESIGN PREVIEW DATA
+    // =============================================
+    const uxProjects = {
+      'Craigslist Redesign': {
+        title: 'Craigslist Redesign',
+        subtitle: 'Ad Posting Website',
+        year: '2026',
+        type: 'Web Application',
+        status: 'ongoing',
+        figmaLink: 'https://www.figma.com/design/2N4HlL0akERxcANTboJrC4/My-designs?node-id=2107-23&t=DigbKmm4wJ2Pc8Ua-1',
+        features: [
+          'User research',
+          'Information architecture & wireframing',
+          'High-fidelity UI design',
+          'Interactive prototyping',
+          'User testing & iteration'
+        ],
+        images: [
+          'assets/images/uiux/craigslist1.png',
+          'assets/images/uiux/craigslist2.png',
+          'assets/images/uiux/craigslist3.png',
+          'assets/images/uiux/craigslist4.png',
+          'assets/images/uiux/craigslist5.png'
+        ]
+      },
+      'Diagen': {
+        title: 'Diagen',
+        subtitle: 'Diagram Generation Website',
+        year: '2025-2026',
+        type: 'Website',
+        status: 'completed',
+        figmaLink: 'https://www.figma.com/design/hwBDbAWrZAAnMLbQfuBpSH/Portfolio-UI-UX-Fatimanaseer?node-id=157-664&t=ypimlhWA4VWwRuXS-1',
+        features: [
+          'Competitive analysis & market research',
+          'User flow & journey mapping',
+          'Wireframing & low-fidelity prototypes',
+          'UI design & UX Design',
+        ],
+        images: [
+          'assets/images/uiux/Diagen1.png',
+          'assets/images/uiux/Diagen2.png',
+          'assets/images/uiux/Diagen3.png',
+          'assets/images/uiux/Diagen6.png'
+        ]
+      },
+      'Noventra': {
+        title: 'Noventra',
+        subtitle: 'Corporate',
+        year: '2026',
+        type: 'Website Landing Page',
+        status: 'completed',
+        figmaLink: 'https://www.figma.com/design/hwBDbAWrZAAnMLbQfuBpSH/Portfolio-UI-UX-Fatimanaseer?node-id=157-664&t=ypimlhWA4VWwRuXS-1',
+        features: [
+          'Information architecture',
+          'Wireframing & prototyping',
+          'Visual design system',
+        ],
+        images: [
+          'assets/images/uiux/Noventra1.png',
+          'assets/images/uiux/Noventra2.png',
+          'assets/images/uiux/Noventra3.png'
+        ]
+      },
+      'Calligo': {
+        title: 'Calligo',
+        subtitle: 'Painting Portfolio',
+        year: '2026',
+        type: 'Web Application',
+        status: 'completed',
+        figmaLink: 'https://www.figma.com/design/hwBDbAWrZAAnMLbQfuBpSH/Portfolio-UI-UX-Fatimanaseer?node-id=157-664&t=ypimlhWA4VWwRuXS-1',
+        features: [
+          'Wireframing & interactive prototypes',
+          'UI design & responsive layouts',
+          'Usability testing & validation'
+        ],
+        images: [
+          'assets/images/uiux/Calligo1.png',
+          'assets/images/uiux/Calligo2.png',
+          'assets/images/uiux/Calligo3.png',
+          'assets/images/uiux/Calligo4.png'
+        ]
+      },
+      'Portfolio Website': {
+        title: 'Portfolio Website',
+        subtitle: 'Portfolio',
+        year: '2026',
+        type: 'Web Application',
+        status: 'completed',
+        figmaLink: 'https://www.figma.com/design/hwBDbAWrZAAnMLbQfuBpSH/Portfolio-UI-UX-Fatimanaseer?node-id=157-664&t=ypimlhWA4VWwRuXS-1',
+        features: [
+          'Wireframing & prototyping',
+          'UI design & dashboard design',
+          'Dark Mode'
+        ],
+        images: [
+          'assets/images/uiux/Pf1.png',
+          'assets/images/uiux/Pf2.png',
+          'assets/images/uiux/Pf3.png',
+          'assets/images/uiux/Pf4.png',
+          'assets/images/uiux/Pf5.png'
+        ]
+      },
+      'Next Music Player': {
+        title: 'Next Music Player',
+        subtitle: 'Music Player App',
+        year: '2025',
+        type: 'Mobile App',
+        status: 'completed',
+        figmaLink: 'https://www.figma.com/design/hwBDbAWrZAAnMLbQfuBpSH/Portfolio-UI-UX-Fatimanaseer?node-id=157-664&t=ypimlhWA4VWwRuXS-1',
+        features: [
+          'User research',
+          'Wireframing & interactive prototypes',
+          'Visual design & accessibility',
+        ],
+        images: [
+          'assets/images/uiux/Mp1.png',
+          'assets/images/uiux/Mp2.png',
+          'assets/images/uiux/Mp3.png'
+        ]
+      }
+    };
+
+    // Contact details
+    const WHATSAPP_NUMBER = '923254343545';
+    const EMAIL_ADDRESS = 'chfatima439@gmail.com';
+
+    // Open UX preview
+    function openUxPreview(projectId) {
+      const project = uxProjects[projectId];
+      if (!project) return;
+      
+      const overlay = document.getElementById('uxPreview');
+      document.getElementById('uxPreviewMainImage').src = project.images[0] || '';
+      document.getElementById('uxPreviewTitle').textContent = project.title;
+      document.getElementById('uxPreviewSubtitle').textContent = project.subtitle;
+      document.getElementById('uxPreviewYear').textContent = project.year;
+      document.getElementById('uxPreviewType').textContent = project.type;
+      document.getElementById('uxPreviewScreens').textContent = project.images.length;
+      
+      const statusBadge = document.getElementById('uxPreviewStatusBadge');
+      if (project.status === 'completed') {
+        statusBadge.textContent = '✓ Completed';
+        statusBadge.className = 'ux-preview-status-badge completed';
+      } else {
+        statusBadge.textContent = '⟳ Ongoing';
+        statusBadge.className = 'ux-preview-status-badge ongoing';
+      }
+      
+      const figmaBtn = document.querySelector('.ux-preview-figma-btn');
+      figmaBtn.href = project.figmaLink;
+      
+      const featuresList = document.getElementById('uxFeaturesList');
+      featuresList.innerHTML = project.features.map(f => `<li>✓ ${f}</li>`).join('');
+      
+      const thumbnails = document.getElementById('uxThumbnailNav');
+      thumbnails.innerHTML = project.images.map((img, i) => 
+        `<img src="${img}" alt="Screen ${i+1}" onclick="previewUxImage('${projectId}', ${i})" class="${i === 0 ? 'active' : ''}">`
+      ).join('');
+      
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeUxPreview() {
+      document.getElementById('uxPreview').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+
+    function previewUxImage(projectId, index) {
+      const project = uxProjects[projectId];
+      if (!project) return;
+      document.getElementById('uxPreviewMainImage').src = project.images[index];
+      document.querySelectorAll('.ux-preview-thumbnails img').forEach((img, i) => {
+        img.classList.toggle('active', i === index);
+      });
+    }
+
+    document.getElementById('uxPreview').addEventListener('click', function(e) {
+      if (e.target === this) closeUxPreview();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && document.getElementById('uxPreview').classList.contains('active')) closeUxPreview();
+    });
+
+    // UI/UX Inquiry Popup functions
+    function openUxInquiryPopup() {
+      document.getElementById('uxInquiryPopup').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeUxInquiryPopup() {
+      document.getElementById('uxInquiryPopup').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+    function openUxWhatsApp() {
+      window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent('Hi Fatima! I want to discuss a UI/UX project with you.')}`, '_blank');
+      closeUxInquiryPopup();
+    }
+    function openUxGmail() {
+      window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${EMAIL_ADDRESS}&su=${encodeURIComponent('UI/UX Project Inquiry')}&body=${encodeURIComponent('Hi Fatima,\n\nI would like to discuss a UI/UX project with you.\n\nThank you!')}`, '_blank');
+      closeUxInquiryPopup();
+    }
+    document.getElementById('uxInquiryPopup').addEventListener('click', function(e) {
+      if (e.target === this) closeUxInquiryPopup();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && document.getElementById('uxInquiryPopup').classList.contains('active')) closeUxInquiryPopup();
+    });
+
+    // Contact Popup functions
+    function openContactPopup() {
+      document.getElementById('contactPopup').classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeContactPopup() {
+      document.getElementById('contactPopup').classList.remove('active');
+      document.body.style.overflow = 'auto';
+    }
+    function handleContactForm(event) {
+      event.preventDefault();
+      const name = document.getElementById('contact-name').value;
+      const email = document.getElementById('contact-email').value;
+      const subject = document.getElementById('contact-subject').value;
+      const message = document.getElementById('contact-message').value;
+      const body = `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`;
+      window.open(`https://mail.google.com/mail/u/0/?view=cm&fs=1&to=${EMAIL_ADDRESS}&su=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+      closeContactPopup();
+      alert('Thank you for your message! Your email client will open to send the message.');
+    }
+    document.getElementById('contactPopup').addEventListener('click', function(e) {
+      if (e.target === this) closeContactPopup();
+    });
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && document.getElementById('contactPopup').classList.contains('active')) closeContactPopup();
+    });
+  </script>
+
+</body>
+</html>
