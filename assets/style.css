@@ -776,6 +776,38 @@ body {
 }
 
 /* =========================================== */
+/* AI CHATBOT SECTION                          */
+/* =========================================== */
+
+.ai-chat-section {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 8rem 2rem 4rem 2rem;
+  text-align: center;
+}
+
+.ai-chat-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: #8a6e4b;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.ai-chat-btn:hover {
+  background: #5c4a32;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(138, 110, 75, 0.3);
+}
+
+/* =========================================== */
 /* UI/UX INQUIRY SECTION                       */
 /* =========================================== */
 
@@ -1601,46 +1633,3 @@ body {
   }
 }
 
-/* =========================================== */
-/* AI CHATBOT SECTION                          */
-/* =========================================== */
-
-.ai-chat-section {
-  max-width: 1300px;
-  margin: 0 auto;
-  padding: 2rem 2rem 4rem 2rem;
-}
-
-.ai-chat-frame-wrapper {
-  border-radius: 16px;
-  overflow: hidden;
-  border: 1px solid #e8e4df;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
-}
-
-.ai-chat-frame {
-  width: 100%;
-  height: 700px;
-  border: none;
-  display: block;
-}
-
-.ai-chat-fallback {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 0.95rem;
-  color: #888;
-  text-align: center;
-  margin-top: 1rem;
-}
-
-.ai-chat-fallback a {
-  color: #8a6e4b;
-  text-decoration: none;
-  border-bottom: 1px solid #8a6e4b;
-}
-
-@media (max-width: 768px) {
-  .ai-chat-frame {
-    height: 550px;
-  }
-}
